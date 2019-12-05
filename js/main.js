@@ -1,5 +1,7 @@
 //Initialize the map and set its origin and a zoom level
 //var mymap = L.map('mapid').setView([39.828175, -98.5795], 5);
+
+//Watershed map tokens: 183d55a35b5d4129abfb303bca36be17, pk.eyJ1IjoidWlzIiwiYSI6Ik9iQnhtN0EifQ.S8_0eRiCjaTDPANSbeviCQ
 var mapboxAccessToken = 'pk.eyJ1IjoiYWFyb25qOSIsImEiOiJjanNhcmM3cXYwMjV2NDRsMW40NzhhdmR6In0.n1JWYvdey3JQMFEPDy49zA';
 var mymap = L.map('mapid').setView([39.828175, -98.5795], 5);
 
