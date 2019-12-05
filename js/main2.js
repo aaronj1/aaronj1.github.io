@@ -1389,10 +1389,9 @@ watershedData = {
  }
 
  var smallIcon = new L.Icon({
-  iconSize: [27, 27],
   iconAnchor: [13, 27],
   popupAnchor:  [1, -24],
-  iconUrl: 'marker4.png'
+  iconUrl: 'Marker4.png'
 });
 
 mymap.on('baselayerchange', function (e) {
