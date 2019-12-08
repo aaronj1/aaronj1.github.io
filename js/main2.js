@@ -21,9 +21,10 @@ watershedData = {
    "properties": {
    "ID":2991,
    "User SID":"",
-   "Name":"Big Thompson River Restoration at Cedar Cove",
+   "Name":"Cedar Cove Reach - Big Thompson River",
    "Address":"281 Cedar Cove, Loveland, CO 80537, USA",
    "Description":"Large amounts of sediment and debris were deposited from erosion caused by the 2013 flooding and streambank erosion and sedimentation along the Big Thompson still impacts residences, businesses, structures, and bridges. The project proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a floodplain will be shaped to lower flood surfaces and provide areas for future sediment deposition. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c0cfb2743301f343bd6/1575652376551/SuccessStory_CedarCove_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT21_4_BigT_lookingDS_frombr_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -39,9 +40,10 @@ watershedData = {
    "properties": {
    "ID":2992,
    "User SID":"",
-   "Name":"Big Thompson River Restoration at Jasper Lake",
+   "Name":"Jasper Lake Reach - Big Thompson River",
    "Address":"",
    "Description":"Large amounts of sediment and debris were deposited from erosion caused by the 2013 flooding and streambank erosion and sedimentation along the Big Thompson still impacts residences, businesses, structures, and bridges. The project proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a floodplain will be shaped to lower flood surfaces and provide areas for future sediment deposition. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c83e711c857b991161f/1575652491428/SuccessStories_JasperLake_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT22_3_BigT_lookingDS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -75,9 +77,10 @@ watershedData = {
    "properties": {
    "ID":2994,
    "User SID":"",
-   "Name":"Big Thompson River Restoration at North Fork",
+   "Name":"North Fork Big Thompson River",
    "Address":"",
    "Description":"A large amount of deposition caused by the 2013 flooding along the Big Thompson still impacts residences, businesses, government facilities, structures, and bridges. The project proposes to remove significant quantities of sediment and create a floodplain to lower flood surfaces and provide areas for future sediment deposition. The project also proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8ca2fb2743301f345311/1575652522869/SuccessStory_NorthForkBigT_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT24_1_BigT_LookingUS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -93,9 +96,10 @@ watershedData = {
    "properties": {
    "ID":2995,
    "User SID":"",
-   "Name":"Big Thompson River Restoration at Confluence",
+   "Name":"Sylvan Dale Reach - Big Thompson River",
    "Address":"",
    "Description":"A large amount of deposition caused by the 2013 flooding along the Big Thompson still impacts residences, businesses, government facilities, structures, and bridges. The project proposes to remove significant quantities of sediment and create a floodplain to lower flood surfaces and provide areas for future sediment deposition. The project also proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8ce92bf494113eef8f5d/1575652595322/SuccessStories_SylvanDale_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT25_1_BigT_LookingUS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -132,6 +136,7 @@ watershedData = {
    "Name":"Big Thompson River Restoration at Mountain Shadows 2",
    "Address":"",
    "Description":"A large amount of hillside and bank erosion caused by the 2013 flooding along the Big Thompson still impacts residences, structures, and bridges. The project proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, where feasible, a floodplain will be shaped to lower flood surfaces and store excess sediment. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8d2c20ab7d236ae07fac/1575652664445/SuccessStories_Waltonia_MS12_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT27_1_BigT_LookingUS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -150,6 +155,7 @@ watershedData = {
    "Name":"Big Thompson River Restoration at Mountain Shadows",
    "Address":"",
    "Description":"A large amount of hillside and bank erosion caused by the 2013 flooding along the Big Thompson still impacts residences, structures, and bridges. The project proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, where feasible, a floodplain will be shaped to lower flood surfaces and store excess sediment. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8d2c20ab7d236ae07fac/1575652664445/SuccessStories_Waltonia_MS12_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT28_1_BigT_LookingUS.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -168,6 +174,7 @@ watershedData = {
    "Name":"Big Thompson River Restoration at Waltonia",
    "Address":"",
    "Description":"A large amount of hillside and bank erosion caused by the 2013 flooding along the Big Thompson still impacts residences, structures, and bridges. The project proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, where feasible, a floodplain will be shaped to lower flood surfaces and store excess sediment. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched. The project is expected to be constructed with the ongoing CDOT work for permanent repairs on US Hwy 34.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8d2c20ab7d236ae07fac/1575652664445/SuccessStories_Waltonia_MS12_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT29_1_BigT_LookingDS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -186,25 +193,8 @@ watershedData = {
    "Name":"North Fork Big Thompson River Restoration at Glen Haven on Fox Creek",
    "Address":"",
    "Description":"Bank erosion, sedimentation, and unstable streambanks have affected the homes, roads, crossings, and businesses along the North Fork of the Big Thompson since the flood of 2013. The project proposes to use rip-rap and bioengineering to stabilize failing streambanks throughout the The project area, as well as stabilize a significant channel avulsion and eroding gully. Additionally, where feasible, a floodplain will be shaped to lower flood surfaces and store excess sediment. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c53e711c857b9910d6d/1575652444051/SuccessStories_GlenHaven_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT30_1_BigT_West_LookingUS_0.jpg",
-   "Created Date":"03/07/2016 - 10:47am",
-   "Total votes":1,
-   "Place_Type":"Big Thompson River"
-   }
- },
- {
-   "type": "Feature",
-   "geometry": {
-      "type": "Point",
-      "coordinates":  [ -105.473,40.4542 ]
-   },
-   "properties": {
-   "ID":3001,
-   "User SID":"",
-   "Name":"North Fork Big Thompson River Restoration at Glen Haven on Fox Creek",
-   "Address":"",
-   "Description":"Bank erosion, sedimentation, and unstable streambanks have affected the homes, roads, crossings, and businesses along the North Fork of the Big Thompson since the flood of 2013. The project proposes to use rip-rap and bioengineering to stabilize failing streambanks throughout the The project area, as well as stabilize a significant channel avulsion and eroding gully. Additionally, where feasible, a floodplain will be shaped to lower flood surfaces and store excess sediment. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
-   "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/Budget-Legend_0.png",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
    "Place_Type":"Big Thompson River"
@@ -222,6 +212,7 @@ watershedData = {
    "Name":"North Fork Big Thompson River Restoration at Glen Haven on West Creek",
    "Address":"",
    "Description":"Bank erosion, sedimentation, and unstable streambanks have affected the homes, roads, crossings, and businesses along the North Fork of the Big Thompson since the flood of 2013. The project proposes to use rip-rap and bioengineering to stabilize failing streambanks throughout the The project area, as well as consider alternative channel alignments. Additionally, where feasible, a floodplain will be shaped to lower flood surfaces and store excess sediment. A low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c53e711c857b9910d6d/1575652444051/SuccessStories_GlenHaven_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/BT30_1_BigT_West_LookingUS_2.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -240,6 +231,7 @@ watershedData = {
    "Name":"Upper Coal Creek Restoration - \"Area 3\"",
    "Address":"",
    "Description":"Proposed work for this project begins approximately four miles west of Highway 93 on Highway 72, in Coal Creek Canyon. The project covers three separate areas along approximately 1.25 miles of the canyon; Start, Area 2, and Area 3.  All sites have one or more of the following treatments: sediment removal to establish a floodplain, bioengineering to stabilize stream banks, armored resiliency to stabilize stream banks, critical area treatment including willow planting, seeding, mulching and top soiling, and cross vanes. Mature trees and bushes in the existing riparian corridor will be preserved where possible and removed only if absolutely necessary. Trees and bushes removed during the project will be utilized, if possible, onsite within the channel or on the banks for stabilization and/or fish habitat. \nThe focus for the project is not only to repair damage caused by the 2013 flooding, but also to build a more resilient floodplain corridor in order to better protect life, homes and structures in the event of high flows.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8cf94fc5135240ed60ea/1575652611405/SuccessStories_CoalCreek_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/CC9_Area3_LookingUS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -258,6 +250,7 @@ watershedData = {
    "Name":"Upper Coal Creek Restoration - \"Area 2\"",
    "Address":"",
    "Description":"Proposed work for this project begins approximately four miles west of Highway 93 on Highway 72, in Coal Creek Canyon. The project covers three separate areas along approximately 1.25 miles of the canyon; Start, Area 2, and Area 3.  All sites have one or more of the following treatments: sediment removal to establish a floodplain, bioengineering to stabilize stream banks, armored resiliency to stabilize stream banks, critical area treatment including willow planting, seeding, mulching and top soiling, and cross vanes. Mature trees and bushes in the existing riparian corridor will be preserved where possible and removed only if absolutely necessary. Trees and bushes removed during the project will be utilized, if possible, onsite within the channel or on the banks for stabilization and/or fish habitat. \nThe focus for the project is not only to repair damage caused by the 2013 flooding, but also to build a more resilient floodplain corridor in order to better protect life, homes and structures in the event of high flows.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8cf94fc5135240ed60ea/1575652611405/SuccessStories_CoalCreek_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/CC8_Area2AreaB_1.jpg",
    "Created Date":"05/19/2016 - 2:05pm",
    "Total votes":1,
@@ -276,6 +269,7 @@ watershedData = {
    "Name":"Upper Coal Creek Restoration - \"Start\"",
    "Address":"",
    "Description":"Proposed work for this project begins approximately four miles west of Highway 93 on Highway 72, in Coal Creek Canyon. The project covers three separate areas along approximately 1.25 miles of the canyon; Start, Area 2, and Area 3.  All sites have one or more of the following treatments: sediment removal to establish a floodplain, bioengineering to stabilize stream banks, armored resiliency to stabilize stream banks, critical area treatment including willow planting, seeding, mulching and top soiling, and cross vanes. Mature trees and bushes in the existing riparian corridor will be preserved where possible and removed only if absolutely necessary. Trees and bushes removed during the project will be utilized, if possible, onsite within the channel or on the banks for stabilization and/or fish habitat. \nThe focus for the project is not only to repair damage caused by the 2013 flooding, but also to build a more resilient floodplain corridor in order to better protect life, homes and structures in the event of high flows.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8cf94fc5135240ed60ea/1575652611405/SuccessStories_CoalCreek_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/CC6_StartAreaB_1.jpg",
    "Created Date":"05/19/2016 - 2:05pm",
    "Total votes":1,
@@ -363,9 +357,10 @@ watershedData = {
    "properties": {
    "ID":3011,
    "User SID":"",
-   "Name":"Fall River Restoration - Elkhorn Lodge",
+   "Name":"Elkhorn Reach - Fall River",
    "Address":"",
    "Description":"A large amount of deposition caused by the 2013 flooding along Fall River still impacts residences, businesses, structures, and bridges through this reach. The project proposes to remove significant quantities of sediment and create a floodplain to lower flood surfaces and provide areas for future sediment deposition. The project also proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control, as necessary. Additionally, a low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c3157dabc23b2bb2f02/1575652407740/SuccessStories_Elkhorn_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/EV17_Elkhorn_lookingus_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -399,9 +394,10 @@ watershedData = {
    "properties": {
    "ID":3009,
    "User SID":"",
-   "Name":"Fish Creek Restoration - Upper Fish Creek",
+   "Name":"Cheley Camp - Fish Creek",
    "Address":"",
    "Description":"Streambank erosion and sedimentation from the flood of 2013 are still impacting residences, businesses, and culverts along this reach of Fish Creek. The project proposes to remove and rework unstable sediment and, where feasible, establish a vegetated floodplain to reduce flood surfaces and store sediment. The project will also provide bioengineering and rock toe protection to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel and woody material will be added to create channel complexity and enhance aquatic habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c204fc5135240ed4786/1575652392161/SuccessStory_CheleyCamp_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/EV15_FishCreek_US_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -417,9 +413,10 @@ watershedData = {
    "properties": {
    "ID":3008,
    "User SID":"",
-   "Name":"Fish Creek Restoration - Scott Avenue",
+   "Name":"Middle/Upper Fish Creek",
    "Address":"",
    "Description":"Streambank erosion and sedimentation from the flood of 2013 are still impacting residences, businesses, and culverts along this reach of Fish Creek. The project proposes to remove and rework unstable sediment and, where feasible, establish a vegetated floodplain to reduce flood surfaces and store sediment. The project will also provide bioengineering and rock toe protection to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel and woody material will be added to create channel complexity and enhance aquatic habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c928f9c311c814a7fea/1575652505805/SuccessStory_MidUpFishCk_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/EV14_1_BrooktoCountryClub_DS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -579,9 +576,10 @@ watershedData = {
    "properties": {
    "ID":3019,
    "User SID":"",
-   "Name":"Rock Creek Restoration - May Museum Site",
+   "Name":"Rock Creek - Fountain Creek Watershed",
    "Address":"",
    "Description":"Streambanks are eroding and sediment is depositing in channel throughout the Rock Creek The project reach. There is an unstable headcut in spillway and damaged access roads resulting in a threatened municipal water supply. This The project proposes rip-rap and biostabilization to repair and stabilize streambanks that were damaged by flood waters as well as to remove excess sediment and debris that was left by the flood. This proejct will also provide protection to the damaged access road and water supply.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8cc7e711c857b991233a/1575652564177/SuccessStory_RockCreek_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/FC7_RocKCreek_IMAG0638_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -741,9 +739,10 @@ watershedData = {
    "properties": {
    "ID":3096,
    "User SID":"",
-   "Name":"Ingram Gulch",
+   "Name":"Ingram Gulch Project - Fourmile Creek Watershed",
    "Address":"",
    "Description":"The 2013 floodwaters eroded a gully and compromised road access to the Ingram Gulch. Gullying will continue to contribute sediment to the upper reaches of Fourmile Creek and cause problems with road access. The project proposes to remove and rework unstable sediment to reduce downstream sediment loading, as well as to remove flood debris that remains in the channel. The project will also provide bioengineering and rock toe protection to stabilize streambanks. Existing trees and root structures will be saved to the extent possible.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c73fb2743301f344d7b/1575652476172/SuccessStories_Ingram_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/FM35_5_IngramGulch_lookingupvalley_1.jpg",
    "Created Date":"04/01/2016 - 4:08pm",
    "Total votes":1,
@@ -777,9 +776,10 @@ watershedData = {
    "properties": {
    "ID":3098,
    "User SID":"",
-   "Name":"Wall Street Restoration",
+   "Name":"Wall Street - Upper Fourmile Creek",
    "Address":"",
    "Description":"Streambank erosion and sedimentation from the 2013 flood continues to impact bridges and properties along this reach of Fourmile Creek. The project proposes to remove and rework unstable sediment to increase floodplain capacity and store future sediment. Project will also provide bioengineering and rock toe protection to stabilize streambanks. Additionally, a low-flow channel and rock clusters will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8d0d20ab7d236ae07d06/1575652635428/SuccessStories_WallStreet_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/FM37_6_Wallst_FourmileCk_DSbridge_lookingDS_1.jpg",
    "Created Date":"04/01/2016 - 4:08pm",
    "Total votes":1,
@@ -924,6 +924,7 @@ watershedData = {
    "Name":"Left Hand Creek Restoration - Ranch Property",
    "Address":"",
    "Description":"Work proposed includes extensive reconfiguration of the channel margins as functional floodplain through the construction of overflow channels and grading of a multi-stage channel. Bank reconstruction and stabilization will consist of a combination of structural (e.g., log and rock toe protection) and bioengineered (e.g., plantings) approaches to help stabilize actively eroding banks and establish a functional channel geometry. Log structures are proposed for armoring the channel banks on the outside of the prominent high energy bend. The channel profile will be graded to target equilibrium slopes and include the establishment of bedforms, including fish-passable steps, pools, and riffles. Extensive floodplain headcutting will be stabilized with grading and revegetation, which will consist of a mix of native riparian and upland species.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c40e711c857b9910ad0/1575652425007/SuccessStories_LH_FoothillsReaches_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/LH20_Ranch_0.jpg",
    "Created Date":"04/01/2016 - 4:08pm",
    "Total votes":1,
@@ -934,7 +935,7 @@ watershedData = {
    "type": "Feature",
    "geometry": {
       "type": "Point",
-      "coordinates":  [ -105.275,40.128 ]
+      "coordinates":  [ -105.275,40.129 ]
    },
    "properties": {
    "ID":3109,
@@ -942,6 +943,7 @@ watershedData = {
    "Name":"Left Hand Creek Restoration - Streamcrest",
    "Address":"",
    "Description":"The Streamcrest project site is located on an alluvial fan, a geomorphic feature characterized by a propensity for depositing sediment and a shifting channel alignment in response to a rapid reduction in channel gradient. This project proposes to account for that behavior by repurposing available floodplain space for sediment storage and channel adjustment. Overflow channels and a multi-stage channel will provide space for sediment deposition and help reduce flood stage. Bank stabilization consisting of a combination of structural (e.g., log and rock toe protection) and bioengineered (e.g., plantings) approaches are proposed to help stabilize in situ sediment that cannot be removed. Functional bedforms (i.e., pools, riffles, fish-passable steps) are proposed for the channel to facilitate sediment exchange, increase channel complexity, increase hyporheic exchange, and accelerate the development of habitat. Channel gradient will target an equilibrium bed slope appropriate for the site. Offset asset protection, where armoring is located as close to the asset as possible, is proposed for the homes located in the floodplain. Riparian and upland revegetation will help to reduce the spread of invasive weeds and curb the extensive erosion potential on the project site. ",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c40e711c857b9910ad0/1575652425007/SuccessStories_LH_FoothillsReaches_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/LH21_Streamcrest_LeftHandCk_powerlines_lookingUS_1.jpg",
    "Created Date":"04/01/2016 - 4:08pm",
    "Total votes":1,
@@ -978,6 +980,7 @@ watershedData = {
    "Name":"Left Hand Creek Restoration - Left Hand Canyon Drive",
    "Address":"",
    "Description":"This project proposes to repair and stabilize channel banks, remove flow constrictions, and connect the channel to the floodplain to the extent possible. Bank stabilization will consist of a combination of structural (e.g., log and rock toe protection) and bioengineered (e.g., plantings) approaches to help stabilize vertical, actively eroding banks. This project area contains a diversion structure with a spillway that is restricted by an undersized culvert. The project proposes to remove that culvert. The potential to lower a primitive access road and driveway to the elevation of the floodplain presents an opportunity to convey flood flows through limited floodplain. ",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c40e711c857b9910ad0/1575652425007/SuccessStories_LH_FoothillsReaches_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/LH57_21LefthandCD_lookingUS_1.jpg",
    "Created Date":"04/01/2016 - 4:08pm",
    "Total votes":1,
@@ -1047,9 +1050,10 @@ watershedData = {
    "properties": {
    "ID":3100,
    "User SID":"",
-   "Name":"Left Hand Creek Restoration at Beilins-Hock Boulder County Open Space Property",
+   "Name":"Beilins-Hock Open Space - Left Hand Creek",
    "Address":"",
    "Description":"This project proposes to grade back an actively eroding vertical bank on the north-west side of Left Hand Creek and re-establish upland vegetation on the newly graded slope. Near the creek, the project proposes to create topographic benches where willows, water birch, and cottonwood trees will be planted in an attempt to re-establish the immediate floodplain. A continuous section of burried set back riprap will be placed 20-30’ off of the channel into the newly graded bank for secondary flood protection that will stop very high and erosive flows from undermining the adjacent infrastructure and private property.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8bfae711c857b9910364/1575652354399/SuccessStory_Bielins-Hock_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/LH12_Beilins7_undercutbank_lookingDS2_1.jpg",
    "Created Date":"04/01/2016 - 4:08pm",
    "Total votes":1,
@@ -1155,9 +1159,10 @@ watershedData = {
    "properties": {
    "ID":3046,
    "User SID":"",
-   "Name":"Little Thompson River Restoration at North 83rd Street Bridge",
+   "Name":"North 83rd St - Little Thompson River",
    "Address":"",
    "Description":"The flood of 2013 caused streambank erosion and sedimentation along the Little Thompson River, impacting residences, businesses, structures, and the N 83rd Street Bridge. The project proposes to remove and rework unstable sediment and create a floodplain, where possible, to lower flood surfaces and provide areas for future sediment deposition. The project also proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8cb44f79f115a8bda0ea/1575652542744/SuccessStories_N83rdSt_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/LT14_1_83rdStBr_lookingUS_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -1209,9 +1214,10 @@ watershedData = {
    "properties": {
    "ID":3051,
    "User SID":"",
-   "Name":"Middle South Platte River Restoration at Highway 60",
+   "Name":"State Highway 60 - South Platte River",
    "Address":"",
    "Description":"This project seeks to protect property and infrastructure in the vicinity of the SH 60 bridge on the Middle South Platte River. Active streambank erosion will be stabilized through a combination of river training structures and bioengineering bank stabilization. The project seeks to stabilize the stream channel in the vicinity of the bridge and improve sediment and debris transport. Existing cottonwood galleries will be protected by these stabilization measures, and nearbank plantings will increase the stability and habitat value of the reach.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8cdcfb542c1dd878d202/1575652578911/SuccessStories_StateHwy60_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/MSP6_1_HWY60_US_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -1263,9 +1269,10 @@ watershedData = {
    "properties": {
    "ID":3056,
    "User SID":"",
-   "Name":"South Saint Vrain Creek Restoration at Boulder County Open Space Hall Ranch Property",
+   "Name":"Hall Ranch & Triangle - South Saint Vrain Creek",
    "Address":"",
    "Description":"The 2013 flood caused stream bank erosion and sedimentation along South St Vrain Creek, impacting residences, roads, and bridges. The The project proposes to remove and rework unstable sediment and create a floodplain, where possible, to lower flood surfaces and provide areas for future sediment deposition. The The project also proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea8c6457dabc23b2bb39b9/1575652459982/SuccessStories_HallRanch_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/SV29_5_SSV_channel_lookingUS_2_0.jpg",
    "Created Date":"03/07/2016 - 10:47am",
    "Total votes":1,
@@ -1353,9 +1360,10 @@ watershedData = {
    "properties": {
    "ID":3128,
    "User SID":"",
-   "Name":"North Saint Vrain Creek Restoration at Apple Valley - North",
+   "Name":"Apple Valley - North Saint Vrain Creek",
    "Address":"",
    "Description":"The flooding in 2013 caused channel avulsions, significant bank erosion, and sediment deposition on North St Vrain Creek in Apple Valley. The The project proposes to remove and rework large amounts of sediment and reconnect the floodplain, where possible, to lower flood surfaces and provide areas for future sediment deposition. The project also proposes to use rip-rap and bioengineering to stabilize streambanks and in-stream structures to provide grade control. Additionally, a low-flow channel, rock clusters, and woody material will be added to create channel complexity and enhance fish habitat, and disturbed areas will be planted with willows, trees, and shrubs, and/or will be seeded and mulched.",
+   "URL": "https://static1.squarespace.com/static/5de58420dca85a1b7550b9ef/t/5dea88ff8f9c311c814a00ee/1575651601469/SuccessStory_AppleValley_fin.pdf",
    "URL to place image":"http://coloradoewp.com/sites/coloradoewp.com/files/SV34_23_buyouthouse_1.jpg",
    "Created Date":"05/19/2016 - 2:05pm",
    "Total votes":1,
@@ -1392,11 +1400,20 @@ function createMap() {
     var desc1 = "Learn More";
   // function used to display pop-up on marker click
   function onEachFeature(feature, layer) {
+    if (feature.properties.URL) {
     layer.on({
       //mouseover: layer.bindPopup(feature.properties.Description),
       //mouseout: layer.bindPopup(feature.properties.Description),
-      click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description + " " + desc1.link("http://coloradoewp.com/"))
+      // Set the text for the pop-up windows
+      click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description + " " 
+      + desc1.link(feature.properties.URL))
     });
+  }
+    else {
+      layer.on({
+        click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description)
+      });
+    }
   }
     
   var info = L.control();
