@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>GEOG565 Project: Visualizing Ice Quality on Lake Mendota</title>
+		
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style3.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+        
+		<div id="mapid"></div>
+		<div id="panel"></div>
+
+		<!--put your external script links here-->
+        <script type="text/javascript" src="lib/d3.js"></script>
+        <script type="text/javascript" src="lib/d3-selection-multi.min.js"></script>
+        <script src="https://unpkg.com/topojson@3"></script>
+		<script src="https://unpkg.com/simple-statistics@7.0.2/dist/simple-statistics.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="https://unpkg.com/d3-simple-slider"></script>
+		<script type="text/javascript" src="js/main3.js"></script>
+		<div>
+			<div class="row align-items-center">
+				<div class="col-sm-2"><p id="value-time"></p></div>
+				<div class="col-sm"><div id="slider-time"></div></div>
+			</div>
+		</div>
+
+		<p>Lake Mendota's Ice Cover Duration</p>
+		<div class="slidecontainer">
+			<input type="range" min="1855" max="2015" step=5 value="1855" class="slider" id="myRange">
+			<p>Year: <span id="demo"></span></p>
+		</div>
+
+		<p>
+			<br>Designed by <a href="https://aaronj1.github.io">Aaron Jing</a>
+		</p>
+	</body>
+</html> 
