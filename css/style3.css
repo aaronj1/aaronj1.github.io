@@ -27,7 +27,6 @@
     stroke-width: 1px;
     shape-rendering: crispEdges;
 }
-
 .axis text {
     font-family: sans-serif;
     font-size: 0.8em;
@@ -135,4 +134,16 @@ option {
     height: 25px; /* Slider handle height */
     background: #4CAF50; /* Green background */
     cursor: pointer; /* Cursor on hover */
+  }
+
+  .line {
+    fill: none;
+    stroke: green;
+    stroke-width: 2px;
+  }
+
+  .dot {
+    fill: red;
+    stroke: red;
+    stroke-width: 1px;
   }

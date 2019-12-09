@@ -97,8 +97,6 @@ function setMap(){
       
             // now do something with curr_volume
         //});
-        
-
 
         //variables to hold data
         iceCover = data[0];
@@ -286,7 +284,6 @@ function setMap(){
     var selected = d3.selectAll("." + props.adm1_code)
         .style("stroke", "violet")
         .style("stroke-width", "5");
- 
     //create dynamic labels
     setLabel(props);
  };
@@ -397,10 +394,10 @@ function setMap(){
         .attr("value", function(d){ return d })
         .text(function(d){ return d });
 
-    var titleOption2 = dropdown.append("option")
-    .attr("class", "titleOption2")
-    .attr("disabled", "true")
-    .text("<Other Attributes>");   
+    //var titleOption2 = dropdown.append("option")
+    //.attr("class", "titleOption2")
+    //.attr("disabled", "true")
+    //.text("<Other Attributes>");   
  };
  
  //dropdown change listener handler
@@ -592,10 +589,3 @@ function moveLabel(){
         return "#CCC";
     };
  };
-
-
-
-
-
-
-
