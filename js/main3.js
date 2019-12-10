@@ -2,11 +2,14 @@
 // Turn bar graph into line graph 
 
     //pseudo-global variables
-    var attrArray = ["Ice  Cover  Duration  on  Lake  Mendota"]; //list of attributes
+    var attrArray = ["Ice  Cover  Duration  on  Lake  Mendota", "Max Ice Thickness of Lake Mendota"]; //list of attributes
     var expressed = attrArray[0]; //initial attribute
     var yscale;
     var iceCover;
     var csvmax;
+    var dispatch;
+    var slider;
+    var output;
  
     //psuedo-global chart frame dimensions variables
     var chartWidth = window.innerWidth * 0.425,
@@ -52,6 +55,7 @@ function setMap(){
     var promises = [];
     promises.push(d3.csv("data/IceCover.csv")); //load attributes from csv
     promises.push(d3.json("data/Madison_Lakes_and_Rivers.topojson")); //load background spatial data
+    promises.push(d3.csv("data/MaxIceThickness.csv")); //load attributes from csv
     //promises.push(d3.json("data/SelectedCountries.topojson")); //load background spatial data
     Promise.all(promises).then(callback);
 
@@ -101,6 +105,7 @@ function setMap(){
         //variables to hold data
         iceCover = data[0];
         countries = data[1];
+        iceThickness = data[2];
         //selectedCountries = data[2];
 
         //place graticule on the map
@@ -121,8 +126,8 @@ function setMap(){
         //add coordinated visualization to the map
         setChart(iceCover, colorScale);
 
-        var slider = document.getElementById("myRange");
-        var output = document.getElementById("demo");
+        slider = document.getElementById("myRange");
+        output = document.getElementById("demo");
         output.innerHTML = slider.value; // Display the default slider value
 
         var allCountries = map.append("path")
@@ -133,39 +138,71 @@ function setMap(){
 
         getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
         document.documentElement.style
-        .setProperty('fill', '#3182bd');
+        .setProperty('fill', '#bdd7e7');
         // Update the current slider value (each time you drag the slider handle)
-        slider.oninput = function() {
+        dispatch = slider.oninput = function() {
             var currYear = output.innerHTML = this.value;
-            if (currYear == 1855 || currYear == 1860 || currYear == 1865 || currYear == 1885 || currYear == 1890
-                || currYear == 1900 || currYear == 1925 || currYear == 1950 || currYear == 1955 || currYear == 1970
-                || currYear == 1995 || currYear == 2000) {
-                getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
-                document.documentElement.style
-                .setProperty('fill', '#3182bd');
+            if (expressed == attrArray[0]) {
+                if (currYear == 1855 || currYear == 1860 || currYear == 1865 || currYear == 1885 || currYear == 1890
+                    || currYear == 1900 || currYear == 1925 || currYear == 1950 || currYear == 1955 || currYear == 1970
+                    || currYear == 1995 || currYear == 2000) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#3182bd');
+                }
+                else if (currYear == 1870 || currYear == 1905 || currYear == 1910 || currYear == 1915 || currYear == 1930
+                    || currYear == 1935 || currYear == 1940 || currYear == 1945 || currYear == 1960 || currYear == 1985
+                    || currYear == 2005) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#6baed6');
+                }
+                else if (currYear == 1875 || currYear == 1895 || currYear == 1920 || currYear == 1975 || currYear == 1980
+                    || currYear == 1990 || currYear == 2010) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#bdd7e7');
+                }
+                else if (currYear == 1965 || currYear == 2015) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#eff3ff');
+                }
+                else if (currYear == 1880) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#08519c');
+                }
             }
-            else if (currYear == 1870 || currYear == 1905 || currYear == 1910 || currYear == 1915 || currYear == 1930
-                || currYear == 1935 || currYear == 1940 || currYear == 1945 || currYear == 1960 || currYear == 1985
-                || currYear == 2005) {
-                getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
-                document.documentElement.style
-                .setProperty('fill', '#6baed6');
-            }
-            else if (currYear == 1875 || currYear == 1895 || currYear == 1920 || currYear == 1975 || currYear == 1980
-                || currYear == 1990 || currYear == 2010) {
-                getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
-                document.documentElement.style
-                .setProperty('fill', '#bdd7e7');
-            }
-            else if (currYear == 1965 || currYear == 2015) {
-                getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
-                document.documentElement.style
-                .setProperty('fill', '#eff3ff');
-            }
-            else if (currYear == 1880) {
-                getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
-                document.documentElement.style
-                .setProperty('fill', '#08519c');
+            if (expressed == attrArray[1]) {
+                if (currYear == 1875 || currYear == 1905 || currYear == 1930) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#bdd7e7');
+                }
+                else if (currYear == 1880 || currYear == 1935 || currYear == 1950 || currYear == 1985 || currYear == 2000) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#08519c');
+                }
+                else if (currYear == 1885 || currYear == 1900 || currYear == 1915 || currYear == 1925 || currYear == 1940
+                    || currYear == 1945 || currYear == 1955 || currYear == 1965 || currYear == 1970 || currYear == 1990
+                    || currYear == 2010) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#3182bd');
+                }
+                else if (currYear == 1890 || currYear == 1895 || currYear == 1910 || currYear == 1960 || currYear == 1975
+                    || currYear == 1980 || currYear == 1995 || currYear == 2005 || currYear == 2015) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#6baed6');
+                }
+                else if (currYear == 1920) {
+                    getComputedStyle(document.documentElement).getPropertyValue('countries'); // #999999
+                    document.documentElement.style
+                    .setProperty('fill', '#eff3ff');
+                }
             }
         }
 
@@ -207,7 +244,7 @@ function setMap(){
         .attr("class", function(d){
               return "bar " + d.adm1_code;
               })
-        .attr("width", chartInnerWidth / iceCover.length - 1)
+        .attr("width", chartInnerWidth / iceCover.length - 1) 
         .on("mouseover", highlightBar)
         .on("mouseout", dehighlightBar)
         .on("mousemove", moveLabel);
@@ -428,15 +465,13 @@ function setMap(){
         .duration(500);
  
     //if statements that check what the expressed attribute array is and sets the x-axis accordingly
-    if (expressed == attrArray[0]) {
-        data = ["1855", "1895", "1935", "1975", "2015"];
-    }
- 
-    //create a scale to size bars proportionally to frame
+    if (expressed == attrArray[0] || expressed == attrArray[1]) {
+        data = ["1875", "1895", "1915", "1935", "1955", "1975", "1995", "2015"];
+            //create a scale to size bars proportionally to frame
     csvmax = d3.max(iceCover, function(d) { return parseFloat(d[expressed]);});
     yScale = d3.scaleLinear()
         .range([475, 0])
-        .domain([0, csvmax + 12]);
+        .domain([0, csvmax + 3]);
  
     //create vertical axis generator
     var yAxis = d3.axisLeft()
@@ -468,17 +503,66 @@ function setMap(){
         .attr("transform", "translate(0,492.5)")
         //.attr("d", d3.line())
         )
+        //set bar positions, heights, and colors
+        updateChart(bars, iceCover.length, colorScale);
+    }
+
+    if (expressed == attrArray[5]) {
+        data = ["1996", "1998", "2000", "2002", "2004", "2006", "2008", "2010", "2012", "2014", "2016", "2018"];
+            //create a scale to size bars proportionally to frame
+    csvmax = d3.max(iceCover, function(d) { return parseFloat(d[expressed]);});
+    yScale = d3.scaleLinear()
+        .range([475, 0])
+        .domain([0, csvmax + 1]);
  
-    //set bar positions, heights, and colors
-    updateChart(bars, iceCover.length, colorScale);
+    //create vertical axis generator
+    var yAxis = d3.axisLeft()
+        .scale(yScale);
+ 
+    //place y-axis
+    var axis = chart.append("g")
+        .attr("class", "axis")
+        .attr("transform", translate)
+        .call(yAxis);
+ 
+    //variables used to set up and format the axis lines and tick marks
+    var svg = d3.select("g");
+    var color = d3.scaleOrdinal(d3.schemeCategory10)
+    var scale = d3.scalePoint()
+        .domain(data)
+        .range([8, 506]);
+    var lines = svg.selectAll(null)
+        .data(data)
+        .enter()
+        .append("g")
+        .attr("y1", 0)
+        .attr("y2", 120)
+        .attr("x1", d => scale(d))
+        .attr("x2", d => scale(d))
+        .style("stroke", d => color(d))
+        .style("stroke-width", 2);
+    d3.axisTop(scale)(svg.append("g")
+        .attr("transform", "translate(0,492.5)")
+        //.attr("d", d3.line())
+        )
+        //set bar positions, heights, and colors
+        updateChart(bars, iceCover.length, colorScale);
+        
+    }
  };
  
  //position, size, and color bars in the chart
  function updateChart(bars, n, colorScale) {
     bars.attr("x", function(d, i){
-              return i * (chartInnerWidth / iceCover.length) + leftPadding;
+            //if (expressed == attrArray[1]) {
+                //return i * (chartInnerWidth / iceCover.length + 30) + leftPadding;
+            //}
+            if (expressed == attrArray[0] || expressed == attrArray[1]) {
+                return i * (chartInnerWidth / iceCover.length) + leftPadding;
+            }
        })
         //size the bars
+
         .attr("height", function(d, i){
               return 476 - yScale(parseFloat(d[expressed]));
               })
@@ -498,8 +582,14 @@ function setMap(){
  //function to create dynamic label
  function setLabel(props){
     //label content
-    var labelAttribute = "<h1>" + props[expressed] + " days" +
-        "</h1><b>" + "Ice Cover Duration" + "</b>" + " in " + props.Year;
+    if (expressed == attrArray[0]) {
+        var labelAttribute = "<h1>" + props[expressed] + " days" +
+            "</h1><b>" + "Ice Cover Duration" + "</b>" + " in " + props.Year;
+    }
+    if (expressed == attrArray[1]) {
+        var labelAttribute = "<h1>" + props[expressed] + " inches" +
+            "</h1><b>" + "Max Ice Thickness" + "</b>" + " in " + props.Year;
+    }
  
     //create info label div
     var infolabel = d3.select("body")
