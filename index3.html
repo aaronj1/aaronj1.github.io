@@ -1434,18 +1434,18 @@
 		// function used to display pop-up on marker click
 		function onEachFeature(feature, layer) {
 			if (feature.properties.URL) {
-			layer.on({
-			//mouseover: layer.bindPopup(feature.properties.Description),
-			//mouseout: layer.bindPopup(feature.properties.Description),
-			// Set the text for the pop-up windows
-			click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description + " " 
-			+ desc1.link(feature.properties.URL))
-			});
-		}
+				layer.on({
+				//mouseover: layer.bindPopup(feature.properties.Description),
+				//mouseout: layer.bindPopup(feature.properties.Description),
+				// Set the text for the pop-up windows
+				click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description + " " 
+				+ desc1.link(feature.properties.URL))
+				});
+			}
 			else {
-			layer.on({
-				click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description)
-			});
+				layer.on({
+					click: layer.bindPopup(feature.properties.Name.bold() + ": " + feature.properties.Description)
+				});
 			}
 		}
 			

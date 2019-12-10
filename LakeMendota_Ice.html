@@ -38,19 +38,18 @@
 			</div>
 		</div>
 
-		<p>Lake Mendota's Ice Cover Duration</p>
 		<div class="slidecontainer">
-			<input type="range" min="1855" max="2015" step=5 value="1855" class="slider" id="myRange">
+			<input type="range" min="1875" max="2015" step=5 value="1875" class="slider" id="myRange">
 			<p>Year: <span id="demo"></span></p>
 		</div>
 		<p>
 			<br>
 				<script>
 					var lineData = [];	
-					lineData.push({date:new Date(1854, 12, 01), nps:118});
-					lineData.push({date:new Date(1859, 12, 01), nps:117});
-					lineData.push({date:new Date(1864, 12, 01), nps:125});
-					lineData.push({date:new Date(1869, 12, 01), nps:99});
+					//lineData.push({date:new Date(1854, 12, 01), nps:118});
+					//lineData.push({date:new Date(1859, 12, 01), nps:117});
+					//lineData.push({date:new Date(1864, 12, 01), nps:125});
+					//lineData.push({date:new Date(1869, 12, 01), nps:99});
 					lineData.push({date:new Date(1874, 12, 01), nps:91});
 					lineData.push({date:new Date(1879, 12, 01), nps:161});
 					lineData.push({date:new Date(1884, 12, 01), nps:128});
@@ -158,6 +157,123 @@
 						.attr("fill", "red")             
 						.text("Lake Mendota's Ice Cover Duration (Days)"); 								
 				</script>
-		</p>
+
+								
+		</p> <br><br><br><br>
+		<p>
+		<script>
+				var lineData = [];	
+				//lineData.push({date:new Date(1854, 12, 01), nps:118});
+				//lineData.push({date:new Date(1859, 12, 01), nps:117});
+				//lineData.push({date:new Date(1864, 12, 01), nps:125});
+				//lineData.push({date:new Date(1869, 12, 01), nps:99});
+				lineData.push({date:new Date(1874, 12, 01), nps:8.22});
+				lineData.push({date:new Date(1879, 12, 01), nps:25.34});
+				lineData.push({date:new Date(1884, 12, 01), nps:18.58});
+				lineData.push({date:new Date(1889, 12, 01), nps:11.65});
+				lineData.push({date:new Date(1894, 12, 01), nps:12.33});
+				lineData.push({date:new Date(1899, 12, 01), nps:18.69});
+				lineData.push({date:new Date(1904, 12, 01), nps:10.12});
+				lineData.push({date:new Date(1909, 12, 01), nps:13.43});
+				lineData.push({date:new Date(1914, 12, 01), nps:17.71});
+				lineData.push({date:new Date(1919, 12, 01), nps:3.35});
+				lineData.push({date:new Date(1924, 12, 01), nps:18.78});
+				lineData.push({date:new Date(1929, 12, 01), nps:9.84});
+				lineData.push({date:new Date(1934, 12, 01), nps:26.43});
+				lineData.push({date:new Date(1939, 12, 01), nps:16.57});
+				lineData.push({date:new Date(1944, 12, 01), nps:17.04});
+				lineData.push({date:new Date(1949, 12, 01), nps:22.61});
+				lineData.push({date:new Date(1954, 12, 01), nps:20.24});
+				lineData.push({date:new Date(1959, 12, 01), nps:13.95});
+				lineData.push({date:new Date(1964, 12, 01), nps:18.58});
+				lineData.push({date:new Date(1969, 12, 01), nps:18});
+				lineData.push({date:new Date(1974, 12, 01), nps:14.23});
+				lineData.push({date:new Date(1979, 12, 01), nps:11.53});
+				lineData.push({date:new Date(1984, 12, 01), nps:24.69});
+				lineData.push({date:new Date(1989, 12, 01), nps:18.84});
+				lineData.push({date:new Date(1994, 12, 01), nps:14.39});
+				lineData.push({date:new Date(1999, 12, 01), nps:23.83});
+				lineData.push({date:new Date(2004, 12, 01), nps:12.46});
+				lineData.push({date:new Date(2009, 12, 01), nps:18.56});
+				lineData.push({date:new Date(2014, 12, 01), nps:12.41});
+				lineData.sort(function(a,b){
+					return new Date(b.date) - new Date(a.date);
+				});
+									
+				var height  = 500;
+				var width   = 1250;
+				var hEach   = 40;
+				
+				var margin = {top: 20, right: 35, bottom: 25, left: 20};
+				
+				width =     width - margin.left - margin.right;
+				height =    height - margin.top - margin.bottom;
+				
+				var svg = d3.select('body').append("svg")
+					.attr("width",  width + margin.left + margin.right)
+					.attr("height", height + margin.top + margin.bottom)
+					.append("g")
+					.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+				
+				// set the ranges
+				var x = d3.scaleTime().range([0, width]);
+					
+				x.domain(d3.extent(lineData, function(d) { return d.date; }));
+				
+				
+				var y = d3.scaleLinear().range([height, 0]);
+				
+				
+				y.domain([d3.min(lineData, function(d) { return d.nps; }) - 5, 30]);
+				
+				var valueline = d3.line()
+						.x(function(d) { return x(d.date); })
+						.y(function(d) { return y(d.nps);  })
+						.curve(d3.curveMonotoneX);
+				
+				svg.append("path")
+					.data([lineData]) 
+					.attr("class", "line")  
+					.attr("d", valueline);
+				
+				//  var xAxis_woy = d3.axisBottom(x).tickFormat(d3.timeFormat("Week %V"));
+				var xAxis_woy = d3.axisBottom(x).ticks(50).tickFormat(d3.timeFormat("%Y")).tickValues(lineData.map(d=>d.date));
+				
+				svg.append("g")
+					.attr("class", "x axis")
+					.attr("transform", "translate(0," + height + ")")
+					.call(xAxis_woy);
+				
+				//  Add the Y Axis
+				//  svg.append("g").call(d3.axisLeft(y));
+				
+				svg.selectAll(".dot")
+					.data(lineData)
+					.enter()
+					.append("circle") // Uses the enter().append() method
+					.attr("class", "dot") // Assign a class for styling
+					.attr("cx", function(d) { return x(d.date) })
+					.attr("cy", function(d) { return y(d.nps) })
+					.attr("r", 5);  
+				
+				
+				svg.selectAll(".text")
+					.data(lineData)
+					.enter()
+					.append("text") // Uses the enter().append() method
+					.attr("class", "label") // Assign a class for styling
+					.attr("x", function(d, i) { return x(d.date) })
+					.attr("y", function(d) { return y(d.nps) })
+					.attr("dy", "-5")
+					.attr("fill", "red")   
+					.text(function(d) {return d.nps; });
+				
+				svg.append('text')                                     
+					.attr('x', 10)              
+					.attr('y', -5)
+					.attr("fill", "red")             
+					.text("Lake Mendota's Max Ice Thickness (Inches)"); 								
+			</script>
+			</p>
 	</body>
 </html> 
