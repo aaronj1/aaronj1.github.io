@@ -637,7 +637,7 @@ function moveLabel(){
         .datum(graticule.outline()) //bind graticule background
         .attr("class", "gratBackground") //assign class for styling
         .attr("d", path) //project graticule
-        .style("fill", "green")
+        .style("fill", "black")
  };
  
  function joinData(selectedCountries, iceCover){
