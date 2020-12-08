@@ -124,6 +124,13 @@ function initMap() {
       },
     });
     //Associate the styled map with the MapTypeId and set it to display.
-    const bikeLayer = new google.maps.BicyclingLayer();
-    bikeLayer.setMap(map);
+    //const bikeLayer = new google.maps.BicyclingLayer();
+    //bikeLayer.setMap(map);
+
+    map.data.loadGeoJson(
+        "https://raw.githubusercontent.com/KeHaDo/ATR/main/GB			P_Existing.geojson"
+    );
+    map.data.loadGeoJson(
+        "https://raw.githubusercontent.com/KeHaDo/ATR/main/Tr			ails_Existing.geojson"
+    );
   }
