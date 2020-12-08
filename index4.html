@@ -1,4 +1,48 @@
 <!DOCTYPE html>
+<h2>Incident Report</h2>
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="Phone">Phone:</label>
+  <input type="text" id="Phone" name="Phone" value="">
+  <label for="Email">Email:</label>
+  <input type="text" id="Email" name="Email" value=""><br>
+  <label for="Date">Date:</label>
+  <input type="text" id="Date" name="Date" value="">
+  <label for="Time">Time:</label>
+  <input type="text" id="Time" name="Time" value=""><br>
+  <label for="Location">Location:</label>
+  <input type="text" id="Location" name="Location" value="">
+  <br>
+  <label for="report_type">Report type:</label>
+  <select id="report_type" name="report_type">
+    <option value="Bike">Bike</option>
+    <option value="Pedestrian">Pedestrian</option>
+    <option value="ADA">ADA</option>
+  </select>
+  <label for="obstruction_type">Obstruction type:</label>
+  <select id="obstruction_type" name="obstruction_type">
+    <option value="Construction">Construction</option>
+    <option value="Pothole">Pothole</option>
+    <option value="Damage">Damage</option>
+    <option value="Hazard">Hazard</option>
+    <option value="Other">Other</option>
+  </select>
+  <br>
+  <label for="restriction_type">Restriction type:</label>
+  <select id="restriction_type" name="restriction_type">
+    <option value="N/A">N/A</option>
+    <option value="Slope">Slope</option>
+    <option value="Curb">Curb</option>
+    <option value="Width">Width</option>
+    <option value="Surface">Surface</option>
+  </select>
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
 <html>
   <head>
     <title>Styled Map Types</title>
@@ -7,8 +51,8 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqo-TBTZZpn33bbGhvGBBZorUgEbwcGlQ&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
-    <link rel="stylesheet" type="text/css" href="css/style4.css" />
-    <script src="js/main4.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+    <script src="./index.js"></script>
   </head>
   <body>
     <div id="map"></div>
