@@ -160,4 +160,10 @@ function initMap() {
     map.data.loadGeoJson(
         "https://aaronj1.github.io/js/Trails_Existing.geojson"
     );
+
+    // Set the stroke width, and fill color for each polygon
+    map.data.setStyle({
+      fillColor: 'green',
+      strokeWeight: 1
+    });
   }
