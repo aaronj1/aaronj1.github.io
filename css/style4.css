@@ -14,8 +14,8 @@
       
       /* The sidepanel menu */
       .sidepanel {
-        height: 250px; /* Specify a height */
-        width: 0; /* 0 width - change this with JavaScript */
+        height: 100%; /* Specify a height */
+        width: 500px;
         position: fixed; /* Stay in place */
         z-index: 1; /* Stay on top */
         top: 0;
