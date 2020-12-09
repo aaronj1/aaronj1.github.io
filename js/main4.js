@@ -155,9 +155,9 @@ function initMap() {
     //bikeLayer.setMap(map);
 
     map.data.loadGeoJson(
-        "https://raw.githubusercontent.com/KeHaDo/ATR/main/GB			P_Existing.geojson"
+        "GBP_Existing.geojson"
     );
     map.data.loadGeoJson(
-        "https://raw.githubusercontent.com/KeHaDo/ATR/main/Tr			ails_Existing.geojson"
+        "Trails_Existing.geojson"
     );
   }
