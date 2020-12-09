@@ -166,14 +166,14 @@ function initMap() {
       fillColor: 'green',
       strokeWeight: 1
     });
-
-      /* Set the width of the sidebar to 250px (show it) */
-      function openNav() {
-        document.getElementById("mySidepanel").style.width = "250px";
-      }
-
-      /* Set the width of the sidebar to 0 (hide it) */
-      function closeNav() {
-        document.getElementById("mySidepanel").style.width = "0";
-      }
   }
+
+        /* Set the width of the sidebar to 250px (show it) */
+        function openNav() {
+          document.getElementById("mySidepanel").style.width = "250px";
+        }
+  
+        /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+          document.getElementById("mySidepanel").style.width = "0";
+        }
