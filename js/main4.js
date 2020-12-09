@@ -157,7 +157,7 @@ function initMap() {
     const map2 = map.data.loadGeoJson(
         "https://aaronj1.github.io/js/GBP_Existing.geojson"
     );
-    const map2 = map.data.loadGeoJson(
+    const map3 = map.data.loadGeoJson(
         "https://aaronj1.github.io/js/Trails_Existing.geojson"
     );
 
