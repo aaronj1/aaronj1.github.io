@@ -1,125 +1,134 @@
-<!DOCTYPE HTML>
-<html>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <style>
-        p4 {
-            display: block;
-        }
-    </style>
-    <meta charset = "utf-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1"/>
-    <meta name="keywords" content="maps, cartography"/>
-    <title>Home</title>
+<title></title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
+
+<style>
+
+body {
+
+	background-image: url('grunge_patterns.jpg');
+	background-attachment: fixed;
+	color: #333;
+}
+
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+}
+
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.8);
+	text-align: center;
+	margin: auto;
+
+}
+
+div.horizontal {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+::-moz-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+
+</style>
+
 <body>
-    <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="lib/bootstrap.min.js"></script>
 
-    <div class = "container-fluid">
-        <div class = "row">
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index.html">Home</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="staticmaps.html">Static Maps</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index2.html">Leaflet Interactive Map</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="interactivemaps.html">Other Interactive Maps</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index3.html">Watershed Recovery Project</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="LakeMendota_Ice.html">Lake Mendota Ice Cover Project</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="Everest/index.html">Mount Everest Map</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index4.html">GEOG576 Final Project</a></div>
-        </div> <!-- /row -->
-    </div> <!-- /container-fluid -->
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <div class = "jumbotron">
-        <h2>Aaron Jing | Cartographer, GIS Analyst, and Web Programmer & Scraper</h2>
-        <p>
-            <br><b>About Me:</b> 
-Greetings! I'm Aaron Jing and have a Bachelor's Degree in Cartography & GIS. I enjoy everything map-related, and have 2+ years of experience creating both static (paper) and interactive (digital) maps. Additionally, I'm familiar with Python, Javascript, and HTML programming. I'm also experienced with a wide variety of mapping software, such as ArcMap, Adobe Illustrator, Adobe Photoshop, and Mapbox Studio. My favorite projects I've completed include a static map of the Alaska Highway, an interactive map showcasing the major climbing routes of Mount Everest, and an interactive map highlighting the ice cover duration and ice thickness of Lake Mendota in Madison, WI. I also have experience with basic GIS analysis using ArcGIS, such as digitizing maps. Feel free to reach out if you have a long or short-term job opening in any of the above areas! 
 
-            <br><br><b>Services:</b>
-            I work on Upwork, a freelance platform, and offer a wide range of cartography services, including static and web map design.
-            I have experience in ArcMap, Adobe Illustrator, Photoshop, and ArcGIS.
-            I'm also proficient in web scraping using Python & Selenium.
-            I'm open to both short-term and long-term job offers, whether it's remote or onsite.
-            <br>Feel free to reach out if interested: <a href="https://www.upwork.com/fl/aaronjing">https://www.upwork.com/fl/aaronjing</a>
-        </p>
-    </div>
 
-    <div class = "jumbotron">
-        <h2>Resume</h2>
-        <p2>
-            <br><b>Aaron Jing</b>
-            <br>aaj9141@gmail.com
-            <br>+1 (608)-298-8107           
-            <br><br><b>Education:</b>
-            <br><i style = "margin: 30px">University of Wisconsin - Madison (Spring 2018-Fall 2019):</i>
-            <p3 style="margin-top: 0; margin-left: 60px">
-                <br><i>Graduated in December 2019 with a Bachelor’s Degree in Cartography & GIS</i>
-                <br><i>Major GPA: 3.737</i>
-                <br><b>Coursework in the major:</b>
-                <p4 style = "display: block; margin-left: 30px">
-                    Digital Globe: GIScience & Technology
-                    <br>Introduction to Cartography
-                    <br>Introduction to Geographic Information Systems
-                    <br>Interactive Cartography & Geovisualization
-                    <br>Graphic Design in Cartography
-                    <br>Introduction to Geocomputing
-                    <br>Geospatial Technologies
-                </p4>
-                    <b>Extracurricular Activities:</b>
-                <p5 style = "display: block; margin-left: 30px">
-                    Geography Club
-                    <br>BadgerMaps (part of YouthMappers)
-                    <br>Badger Orienteering Club 
-                </p5>
-            </p3>
-            <br><i style = "margin: 30px">Madison Area Technical College (Summer 2016-Fall 2017):</i>
-            <p6 style="margin-left: 60px">
-                <br><i>GPA: 3.787</i>
-            </p6>
-            <p6 style="margin-left: 60px">
-                <br><i>Earned Dean's List recognition 3 times</i>
-            </p6>
-            <p6 style="margin-left: 60px">
-                <br><i>Inducted into the Phi Theta Kappa Honor Society in Spring 2017</i>
-            </p6>
-                    
-            <br><br><b>Professional/Volunteer Experiences:</b>
-                <br><i style = "margin: 30px">11/2019- Upwork (Freelance platform; Job Success Score: 100%):</i>
-                <p7 style = "display: block; margin-left: 60px">
-                    Created a web map using JavaScript and Leaflet which displays the watershed restoration projects in the Denver, Colorado area
-                    <br> Digitized maps using ArcGIS
-                    <br> Checked the accuracy of spatial information on Google and Apple maps
-                    <br> Created a Python script that automatically collects data from a horse racing site and appends it into a text file
-                    <br> Created a Python script that searches Google Dictionary and appends data to a csv file
-                    <br> Created a Python script that reformats & cleans an Excel spreadsheet
-                    <br> Created two Python scripts that automate Twitter actions, such as tweeting, retweeting, and liking posts
-                </p7>
-            
-                <i style = "margin: 30px">YouthMappers (volunteer):</i>
-                <p8 style = "display: block; margin-left: 60px">
-                    Updated OpenStreetMap data using satellite imagery; mapped roads and buildings in Africa
-                </p8>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
-            <br><br><b>Websites, Portfolios, Profiles:</b>
-            <br>GitHub: <a href="https://github.com/aaronj1/maps">https://github.com/aaronj1/maps</a>
-            <br>Upwork: <a href="https://www.upwork.com/fl/aaronjing">https://www.upwork.com/fl/aaronjing</a>
-        </p2>
-    </div>
 
-    <div class = "container-fluid">
-        <div class = "row">
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index.html">Home</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="staticmaps.html">Static Maps</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index2.html">Leaflet Interactive Map</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="interactivemaps.html">Other Interactive Maps</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="index3.html">Watershed Recovery Project</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="LakeMendota_Ice.html">Lake Mendota Ice Cover Project</a></div>
-            <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="Everest/index.html">Mount Everest Map</a></div>
-        </div> <!-- /row -->
-    </div> <!-- /container-fluid -->
-    
+	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+
+	<script type="text/javascript">
+	"use strict";
+
+
+	function loadPage(pwd) {
+
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/Bunker_Hill/index.html";
+
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+
+				window.location= url;
+
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+
+
+				parent.location.hash= hash;
+
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+
+
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+
+	</script>
+
 </body>
 </html>
